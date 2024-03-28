@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="./images/logo/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../scss/contact.css" />
+    <link rel="stylesheet" href="../css/contact-responcive.css" />
+    <title>On The Trail</title>
+  </head>
+  <body>
+    <header>
+      <div id="brend-container">
+        <aside id="logo">
+          <a href="../index.html"
+            ><img src="../images/logo/logo.jpg" alt="logo"
+          /></a>
+        </aside>
+        <aside id="brend">
+          <a href="../index.html">On The Trail</a>
+        </aside>
+        <aside id="destination">
+          <a href="../index.html">My Travel Blog</a>
+        </aside>
+      </div>
+      <form id="search">
+        <label for="search-input"></label>
+        <input
+          type="search"
+          id="search-input"
+          name="search"
+          placeholder="Search..."
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+      <nav class="flex-center">
+        <label id="burger" for="bar"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="bar" />
+        <ul class="flex-center">
+          <li class="flex-center">
+            <a class="flex-center" href="../blog/blog.html">Blog</a>
+          </li>
+          <li class="flex-center">
+            <a class="flex-center" href="../about-me/about-me.html">About Me</a>
+          </li>
+          <li class="flex-center">
+            <a class="flex-center active" href="./contact.html">Work With Me</a>
+          </li>
+          <li class="flex-center">
+            <a class="flex-center" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="background"></div>
+    <main>
+      <div id="icons" class="flex-center">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+      <section>
+        <h1>Work With Me</h1>
+      </section>
+      <section id="featured">
+        <aside></aside>
+        <aside class="flex-center">
+          <div>
+            <h2>
+              I am passionate about sharing my knowledge, travel experience and
+              the useful tips I’ve learned on the trail.
+            </h2>
+            <p>
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+          </div>
+        </aside>
+      </section>
+      <section id="contact">
+        <h2>As featured in</h2>
+        <article><span></span><span></span><span></span><span></span></article>
+      </section>
+      <section>
+        <h2>Contact me here</h2>
+        <article>
+          <span><a href="mailto:Info@mysite.com">Info@mysite.com</a></span>
+          <span><a href="tel:123-456-7890">123-456-7890</a></span>
+          <span>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </span>
+        </article>
+      </section>
+      <section>
+        <h2>Or just drop me a line here</h2>
+        <form action="https://api.everrest.educata.dev/echo/html" method="post">
+          <span
+            ><label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first name" required
+          /></span>
+          <span
+            ><label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last name" required
+          /></span>
+          <span
+            ><label for="email">E-mail</label>
+            <input type="email" id="email" name="E-mail" required
+          /></span>
+          <span
+            ><label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" required
+          /></span>
+          <span
+            ><label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </span>
+          <button>Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div id="brend-container">
+          <aside id="logo">
+            <a href="#"><img src="../images/logo/logo.jpg" alt="logo" /></a>
+          </aside>
+          <aside id="brend">
+            <a href="#">On The Trail</a>
+          </aside>
+          <aside id="destination">
+            <a href="#">My Travel Blog</a>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about-me/about-me.html">About Me</a></li>
+          <li><a href="./contact.html">Work With Me</a></li>
+          <li><a href="./contact.html#featured">As Featured In</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="./contact.html#contact">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <p>
+          Subscribe here and get the latest travel tips and my insider secrets!
+        </p>
+        <form action="https://api.everrest.educata.dev/echo/html" method="post">
+          <input
+            type="email"
+            id="email"
+            name="E-mail"
+            placeholder="    Email"
+            required
+          />
+          <button>Subscribe</button>
+        </form>
+      </section>
+      <section>
+        <p>
+          © 2035 by On the Trail. Powered and secured by <a href="#">Wix</a>
+        </p>
+      </section>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/7c63e9b8c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

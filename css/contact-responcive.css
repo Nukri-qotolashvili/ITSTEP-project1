@@ -1,0 +1,209 @@
+@media screen and (max-width: 1300px) and (min-width: 0px) {
+  body header {
+    padding: 0px 30px;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 0px) {
+  body header aside#brend,
+  body header aside#destination {
+    display: none !important;
+  }
+  body header div#brend-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  body header form#search {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  body header nav label#burger {
+    display: inline-block;
+    font-size: 35px;
+  }
+  body header nav ul {
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #364037;
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav ul li {
+    width: 100%;
+  }
+  body header nav ul a {
+    width: 100%;
+  }
+  body header nav input#bar:checked ~ ul {
+    right: 0px;
+  }
+  body header form#search {
+    margin: 0px;
+  }
+  body header form#search input#search-input {
+    width: 100px;
+    height: 40px;
+  }
+  body header {
+    height: 80px;
+  }
+  body header div#brend-container aside#logo,
+  body header div#brend-container aside#logo a,
+  body header div#brend-container aside#logo a img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  body header nav label#burger {
+    display: inline-block;
+    font-size: 30px;
+  }
+  body header nav ul {
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #364037;
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav ul li {
+    width: 100%;
+  }
+  body header nav ul a {
+    width: 100%;
+  }
+  body header nav input#bar:checked ~ ul {
+    right: 0px;
+  }
+  body header form#search {
+    margin: 0px;
+  }
+  body header form#search input#search-input {
+    padding: 0px 5px;
+    width: 80px;
+    height: 30px;
+    background-color: var(--header-background-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 10px;
+  }
+  body header form#search input::placeholder {
+    color: var(--white-color);
+    font-size: 10px;
+    font-weight: 100;
+  }
+  body header {
+    height: 80px;
+    padding: 0px 15px;
+  }
+  body header div#brend-container aside#logo,
+  body header div#brend-container aside#logo a,
+  body header div#brend-container aside#logo a img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 1270px) and (min-width: 280px) {
+  main section:nth-child(3) {
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    border: none;
+  }
+  main section:nth-child(3) aside:nth-child(1) {
+    border: none;
+    width: 95%;
+    background-position: 80% 20%;
+  }
+  main section:nth-child(3) aside:nth-child(2) {
+    width: 95%;
+    height: 70%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  main section:nth-child(3) aside:nth-child(2) div {
+    padding-top: 30px;
+    height: 100%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  main div#icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 500px) {
+  main section:nth-child(4) article {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 280px) {
+  main section:nth-child(4) article {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+  }
+  main section:nth-child(5) article {
+    flex-direction: column;
+  }
+  main section:nth-child(5) article span {
+    margin: 20px 10px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 280px) {
+  main section:nth-child(6) form {
+    width: 260px;
+    height: fit-content;
+  }
+  main section:nth-child(6) form span input {
+    width: 260px;
+  }
+  main section:nth-child(6) form span textarea {
+    width: 260px;
+  }
+  main section:nth-child(6) form button {
+    width: 260px;
+    height: 50px;
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 279px) {
+  * {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 280px) {
+  footer {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 442px) and (min-width: 280px) {
+  footer section:nth-child(1) {
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+  footer section:nth-child(3) {
+    width: 270px;
+    height: fit-content;
+    padding: 0px;
+  }
+  footer section:nth-child(3) input {
+    width: 260px;
+    height: 30px;
+  }
+  footer section:nth-child(3) button {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+}
