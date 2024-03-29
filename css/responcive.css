@@ -194,7 +194,7 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-height: 1050px) and (min-height: 800px) {
+@media screen and (max-height: 1050px) and (min-height: 800px) and (max-width: 1024px) and (min-width: 280px) {
   main section#posts {
     padding-top: 400px;
   }
