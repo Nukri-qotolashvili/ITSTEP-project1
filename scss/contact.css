@@ -340,6 +340,7 @@ main section:nth-child(6) form span input:hover {
 main section:nth-child(6) form span textarea {
   width: 578px;
   box-sizing: border-box;
+  resize: vertical;
 }
 main section:nth-child(6) form span textarea:hover {
   border: 2px solid #000000;
